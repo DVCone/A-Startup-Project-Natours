@@ -156,6 +156,7 @@ body{
 	color:transparent;
 	transition: all 0.2s;
 	margin-bottom: 80px;
+	margin-left: 50px;
 }
 .heading-secondary:hover{
 	transform:skewX(2deg) skewY(10deg) scale(1.1);
@@ -219,7 +220,7 @@ p{
 	top:10px;	
 }
 .composition-photo--p3{
-	/* right:100px; */s
+	/* right:100px; */
 	top:125px;
 	left:25%;
 }
@@ -548,4 +549,14 @@ background-blend-mode:screen;
 	opacity:0;
 	visibility: hidden;
 	transform:translateY(-4rem);
+}
+
+/* Footers */
+footer {
+	background-color: green;
+	color: #fff;
+}
+footer p {
+	padding: 10px 0px;
+	margin: 0px !important;
 }
